@@ -26,13 +26,17 @@ header {
 
 /* TODO HO CERCATO DI FARLO RESPONSIVE IN MODO CHE IN BASE ALLA FINESTRA VA A CAPO IL CONTENT IN ORDINE MA NON FUNZIONA.
    MI SONO BASATO VEDENDO IL SITO DI PRADA ORIGINALE, MA USATE ADDIRITTURA RELATIVE ECC QUINDI MI SEMBRA PIU COMPLESSO.*/
+
+/* sei una pippetta */
 .main {
 	padding-top: 50px;
 	display: flex;
-	/* flex-wrap: wrap; */  
+	/* flex-wrap: wrap; */
 }
 
 /* TODO HO PROVATO A TOGLIERE LA WIDTH E SEMBRA CHE CON UN DISPOSITIVO PIU PICCOLO FUNZIONA MEGLIO MA SUL DESKTOP NORMALE CAMBIA */
+
+/* sei una pippetta x2 */
 .vertical-content {
 	margin: 20px;
 	border: 1px solid;
@@ -47,6 +51,8 @@ header {
 STO CERCANDO DI FARE UN COMPONENTE UNICO PER METTERE IL LINK, L'HO FATTO COSI ABSOLUTE PERCHE SPERAVO SI 
 ANCORASSE AL DIV DEL CONTENT MA QUELLO NON è POSIZIONATO MA è FLEX QUINDI LUI CON L'ABSOLUTE VA SUL BODY E QUINDI
 NON VA. ORA MI SONO PERSO... */
+
+/* io mi sono perso leggendo questo commento */
 .purchase {
 	position: absolute;
 	text-decoration: underline;
