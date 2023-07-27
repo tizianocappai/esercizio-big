@@ -31,20 +31,35 @@ header {
 .main {
 	padding-top: 50px;
 	display: flex;
+	flex-direction: column;
 	/* flex-wrap: wrap; */
 }
 
 /* TODO HO PROVATO A TOGLIERE LA WIDTH E SEMBRA CHE CON UN DISPOSITIVO PIU PICCOLO FUNZIONA MEGLIO MA SUL DESKTOP NORMALE CAMBIA */
 
+.first-section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 /* sei una pippetta x2 */
 .vertical-content {
-	margin: 20px;
+	padding: 16px;
+	box-sizing: border-box;
 	border: 1px solid;
-	width: 50%;
-	max-width: 100%;
 	height: 900px;
 	text-align: center;
-	overflow: hidden;
+	min-width: 600px;
+	flex: 0 0 50%;
+}
+
+.vertical-content a,
+.vertical-content img {
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 
 /* TODO
