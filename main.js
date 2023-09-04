@@ -15,4 +15,6 @@ function handleMenu() {
     }
 }
 
-menuEl.addEventListener("click", handleMenu)
+menuEl.addEventListener("click", handleMenu);
+
+
