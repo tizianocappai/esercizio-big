@@ -87,7 +87,6 @@ header {
 .vertical-content {
 	padding: 16px;
 	box-sizing: border-box;
-	border: 1px solid;
 	height: 900px;
 	text-align: center;
 	min-width: 600px;
