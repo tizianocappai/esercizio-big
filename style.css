@@ -5,7 +5,6 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column; */
-	background-color: aqua;
 }
 
 header {
@@ -99,21 +98,25 @@ header {
 .vertical-content img {
 	display: block;
 	width: 100%;
-	height: 100%;
+	/* TODO: HO COMMENTATO L'ALTEZZA PERCHE SENNO LA FOTO VENIVA SCHIACCIATA, COSI OCCUPA LO SPAZIO CHE PUO E POI VIENE TAGLIATA
+	height: 100%; */
 }
 
-/* TODO
-STO CERCANDO DI FARE UN COMPONENTE UNICO PER METTERE IL LINK, L'HO FATTO COSI ABSOLUTE PERCHE SPERAVO SI 
-ANCORASSE AL DIV DEL CONTENT MA QUELLO NON è POSIZIONATO MA è FLEX QUINDI LUI CON L'ABSOLUTE VA SUL BODY E QUINDI
-NON VA. ORA MI SONO PERSO... */
+.purchase-card {
+	height: 100%;
+	overflow: hidden;
+}
 
-/* io mi sono perso leggendo questo commento */
-.purchase {
+.purchase-container {
+	text-align: left;
 	position: absolute;
+	padding: 20px;
+
+}
+
+.purchase {
 	text-decoration: underline;
-	color: aliceblue;
-	right: 65px;
-	top: 100px;
+	color: rgb(55, 29, 170);
 }
 
 .horizontal-content {
