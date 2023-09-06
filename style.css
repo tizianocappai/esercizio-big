@@ -182,4 +182,9 @@ footer {
 	  visibility: hidden;
 	}
 
+	/* TODO: VISTO CHE I LINK ALL'INTERNO DEL CONTAINER INVISIBILE OCCUPAVANO CMQ LO SPAZIO E USCIVANO FUORI LE ICONE, COSI NO*/ 
+	.link {
+		display: none;
+	}
+
   }
