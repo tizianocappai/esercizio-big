@@ -160,7 +160,6 @@ footer {
 	padding: 0 0 0 16px;
 	height: 57px;
 	border-top: 1px solid gray;
-	justify-content: space-around;
 }
 
 .store-locator {
@@ -175,6 +174,9 @@ footer {
 	border-left: 1px solid gray;
 }
 
+.copyright {
+	width: 70%;
+}
 
 @media screen and (max-width: 868px) {
 
@@ -185,6 +187,31 @@ footer {
 	/* TODO: VISTO CHE I LINK ALL'INTERNO DEL CONTAINER INVISIBILE OCCUPAVANO CMQ LO SPAZIO E USCIVANO FUORI LE ICONE, COSI NO*/ 
 	.link {
 		display: none;
+	}
+
+	.footer-bottom {
+		height: 185px;
+		border-top: 1px solid gray;
+		justify-content: center;
+		flex-direction: column-reverse;
+		align-items: normal;
+		padding: 0;
+	}
+
+	.copyright {
+		text-align: center;
+		padding: 20px;
+		width: 95%;
+	}
+
+	.shipping {
+		border-bottom: 1px solid gray;
+		border-left: none;
+	}
+
+	.store-locator {
+		border-bottom: 1px solid gray;
+		border-left: none;
 	}
 
   }
