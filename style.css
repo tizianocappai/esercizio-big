@@ -34,6 +34,7 @@ header {
 	height: 100%;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	width: 73%;
 }
 
@@ -142,30 +143,32 @@ header {
 
 footer {
 	background-color: white;
-	width: 100%;
-	height: 300px;
+	/* width: 100%; commentata perchè display: block prende gia 100% */
+	height: 400px;
+	padding: 16px /* va messo sempre sul contenitore padre piu in alto e non sul contenuto senno ci sta un incongruenza con i pixel */ 
 }
 
 .footer-content {
 	display: flex;
 	/* TODO: COMMENTATO PERCHE' ALTRIMENTI CON IL PADDING 16px QUI SOTTO USCIVA FUORI A DESTRA IL CONTENUTO 
 	width: 100%; */
-	height: 100%;
-	padding: 16px;
+	height: 85%;
 }
 
 .footer-bottom {
 	display: flex;
 	align-items: center;
 	padding: 0 0 0 16px;
-	height: 57px;
+	height: 15%;
 	border-top: 1px solid gray;
 }
 
 .store-locator {
 	text-align: center;
-	padding: 20px;
 	border-left: 1px solid gray;
+	height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .shipping {
@@ -189,14 +192,14 @@ footer {
 
 @media screen and (max-width: 868px) {
 
-	.link-container {
+	/* .link-container {
 	  visibility: hidden;
-	}
+	} */
 
 	/* TODO: VISTO CHE I LINK ALL'INTERNO DEL CONTAINER INVISIBILE OCCUPAVANO CMQ LO SPAZIO E USCIVANO FUORI LE ICONE, COSI NO*/ 
-	.link {
+	/*.link {
 		display: none;
-	}
+	} */
 
 	.footer-bottom {
 		height: 185px;
